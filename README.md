@@ -22,12 +22,12 @@
 که براساس نیاز، یکی از ماشین ها (موتور، وانت، کامیون و هواپیما) را ایجاد کند و به ما ارائه دهد.
 
 1. یک پوشه جدید به نام Services در پوشه app خود ایجاد کنید.
-2. یک Interface  به نام Vehicle.php در پوشه Services ایجاد کنید.
-3. یک کلاس  به نام Motorcycle.php در پوشه Services ایجاد کنید که از Interface Vehicle ارث بری کند.
-4. یک کلاس  به نام PickupTruck.php در پوشه Services ایجاد کنید که از Interface Vehicle ارث بری کند.
-5. یک کلاس  به نام Truck.php در پوشه Services ایجاد کنید که از Interface Vehicle ارث بری کند.
-6. یک کلاس  به نام Airplane.php در پوشه Services ایجاد کنید که از Interface Vehicle ارث بری کند.
-7. یک کلاس  به نام VehicleFactory.php در پوشه Services ایجاد کنید.
+2. یک Interface  به نام Vehicle.php در پوشه Services/Vehicle ایجاد کنید.
+3. یک کلاس  به نام Motorcycle.php در پوشه Services/Vehicle ایجاد کنید که از Interface Vehicle ارث بری کند.
+4. یک کلاس  به نام PickupTruck.php در پوشه Services/Vehicle ایجاد کنید که از Interface Vehicle ارث بری کند.
+5. یک کلاس  به نام Truck.php در پوشه Services/Vehicle ایجاد کنید که از Interface Vehicle ارث بری کند.
+6. یک کلاس  به نام Airplane.php در پوشه Services/Vehicle ایجاد کنید که از Interface Vehicle ارث بری کند.
+7. یک کلاس  به نام VehicleFactory.php در پوشه Services/Vehicle ایجاد کنید.
 8. یک کلاس  به نام VehicleController.php در پوشه app/Http/Controllers ایجاد کنید.
 9. یک مسیر جدید به نام `/deliver` به فایل `api.php` اضافه کید.
 ```

@@ -10,7 +10,7 @@
 ## Laravel Factory Method Design Pattern Tutorial
 ## آموزش الگوی طراحی Factory Method با پیاده سازی در لاراول
 
-دیزاین پترن Factory Method یک الگوی طراحی رفتاری (Creational) است
+دیزاین پترن Factory Method یک الگوی طراحی سازنده  (Creational) است
 
 - الگوی Factory یک الگوی طراحی است که برای ایجاد اشیا استفاده می شود
 - الگوی Factory یک واسطه بین کدی است که به شی نیاز دارد و کدی که شی را ایجاد می کند.

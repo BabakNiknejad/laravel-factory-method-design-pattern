@@ -2,7 +2,6 @@
 
 namespace App\Services\Vehicle;
 
-use App\Services\Vehicle\Motorcycle;
 use Mockery\Exception;
 
 class VehicleFactory
@@ -27,7 +26,7 @@ class VehicleFactory
                 break;
 
             default:
-            throw new \Exception('Invalid vehicle type provided!');
+            throw new Exception('Invalid vehicle type provided!');
         }
     }
 
